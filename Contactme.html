@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>Contact Information</h1>
+    <h3>Full Name</h3>
+    <p>Jose Hernandez</p>
+    <h3>Phone Number</h3>
+    <p>+584248473026</p>
+    <h3>Email Address</h3>
+    <p><a href="mailto:solojosehernandez@gmail.com">solojosehernandez@gmail.com</a></p>
+    <hr>
+    <h3>Coordinemos una reunion</h3>
+    <form action="mailto:solojosehernandez@gmail.com" method="post" enctype="text/plain">
+        <table>    
+            <tbody
+                <tr>
+                    <td><label>Nombre</label></td>
+                    <td><input type="text" name="Tu Nombre"><br></td>
+                </tr>
+                <tr>
+                    <td><label>Apellido</label></td>
+                    <td><input type="text" name="Tu Apellido"><br></td>    
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email" name="Tu Email"><br></td>
+                </tr>
+                <tr>
+                    <td><label>Fecha de reunion</label></td>
+                    <td><input type="datetime-local" name="Fecha de reunion"><br></td>
+                </tr>
+                <tr>
+                    <td><label>Mensaje</label></td>
+                    <td><textarea name="Mensaje" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="hidden"></td>
+                    <td><input type="submit">
+                        <input type="reset"></td>
+                </tr>
+            </tbody>
+        </table>    
+    </form>
+</body>
+</html>
